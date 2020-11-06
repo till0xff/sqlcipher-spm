@@ -18,6 +18,7 @@ let package = Package(
         .target(
             name: "SQLCipher",
             path: "Sources",
+            publicHeadersPath: ".",
             cSettings: [
                 .define("NDEBUG"),
                 .define("SQLITE_HAS_CODEC"),

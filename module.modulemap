@@ -1,4 +1,0 @@
-module SQLCipher {
-    header "Sources/sqlite3.h"
-    export *
-}
